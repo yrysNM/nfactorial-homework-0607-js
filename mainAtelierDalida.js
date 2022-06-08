@@ -10,7 +10,7 @@ const splitLine = function(num) {
     }while(indexLine < num);
 
     return strLength;
-}
+};
 
 function resOrder(obj) {
     console.log("Product name     Quantity");
@@ -48,7 +48,7 @@ function main() {
     RL.question("Order number || product name: ", (op) =>  {
         productName.forEach(value => {
             if(op === value) {
-                let indexOrder = productName.some
+                // let indexOrder = productName.some
                 console.log("Order number: ", objProductsNameOrdernum[value]);
                 atelier_Dalida.setProduct(objProductsNameOrdernum[value]);
                 booleanCh = true;
